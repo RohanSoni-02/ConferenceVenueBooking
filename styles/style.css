@@ -1,0 +1,369 @@
+/*
+filename: [Rohan Soni]
+author: [Rohan Soni]
+created: [24/03/2021]
+last modified: [28/03/2021]
+description: [index.html, product.html, enquire.html, about.html, enhancements.html]
+purpose: Assignment 1
+ */
+ * {font-family: calabri, sans-serif; }
+ * {color: #2F4F4F; }
+ #hm, #prsn, #conv, #more,#more1, #abt {color: white;}
+ #conv, #more,#more1, #abt {font-size: 20px;}
+ ul {font-size: 1.1em;}
+ /* For background image */
+ .container {
+              position: relative;
+              text-align: center;
+              color: white;
+}
+.txtcenter {
+            position: absolute;
+            font-family: monospace, sans-serif;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #f0fff0;
+}
+ #bg-img {
+          background-image: url("images/conf4.jpg");
+          width: 100vw;
+          height: 70vh;
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          position: relative;
+}
+#bg-img2 {
+         background-image: url("images/conf.jpg");
+         width: 100vw;
+         height: 70vh;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         position: relative;
+}
+#bg-img3 {
+         background-image: url("images/conf2.jpg");
+         width: 100vw;
+         height: 70vh;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         position: relative;
+}
+#bg-img4 {
+         background-image: url("images/conf3.png");
+         width: 100vw;
+         height: 70vh;
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
+         position: relative;
+}
+#bg-img5 {
+  background-image: url("images/conf5.jpeg");
+  width: 100vw;
+  height: 70vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+ /* For menu */
+ p.menu {display: inline-block; }
+ ul.menu {
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            width: auto;
+            overflow:hidden;
+            background-color:#333;
+ }
+ li.menu {
+          float: left;
+ }
+ li a {
+        display: inline-block;
+        color:white;
+        text-align: center;
+        padding:14px 16px;
+        text-decoration:none;
+        font-size: 1.2em;
+ }
+ .active {background-color: #4CAF50;}
+ li a:hover{background-color: #111;}
+  #social {float: right;}
+ #logo {float: left;}
+
+ /*  Sidenav  */
+#mySidenav a {
+  position: absolute;
+  left: -50px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {left: 0; }
+
+
+#banq {
+  top: 190px;
+  background-color: #4CAF50;
+}
+
+#board {
+  top: 260px;
+  background-color: #2196F3;
+}
+
+#ushap {
+  top: 340px;
+  background-color: #f44336;
+}
+
+#pod {
+  top: 420px;
+  background-color: #555
+}
+/* General */
+
+#homepg p {
+           text-align: center;
+           font-size: small;
+           width:100%;
+           padding:14px 16px;
+}
+
+ footer p {
+            display: inline-block;
+            width: 31.084%;
+            background-color:#333;
+            padding:14px 16px;
+            color: white;
+            font-size: small;
+ }
+ footer p:first-child {float: left; }
+ footer p:nth-child(2) {text-align: center;}
+ footer p:last-child {float: right; text-align: right;}
+
+ aside,footer {font-style: italic;
+}
+.mark {color: #ff4500;}
+.normal {background-color: #4CAF50;
+  display: inline-block;
+  color:white;
+  text-align: center;
+  padding:10px 13px;
+  text-decoration:none;
+  font-size: small;}
+
+ /* For index.html */
+
+ #main h2 {color: rgb(0,128,128); font-weight: bold; font-size: 1.5em; }
+ #main2 h3 {color: rgb(0,128,128); font-weight: bold; font-size: 1.5em; }
+ #main3 p {text-align: justify; font-size: 1em; }
+ #main4 h2 {color: rgb(0,128,128); font-weight: bold; font-size: 1.5em; }
+ span {color: darkorange; font-weight: bold;}
+ .link {background-color: #32cd32;}
+ .link p,a {text-align: center;
+            color: White;
+            font-weight: bold;
+            font-style: normal;
+            padding: 14px 16px;
+ }
+ .rev p{background-color: lightgray;
+        padding: 14px 16px;
+ }
+ #main4 {float: left;}
+#main, #main2, #main3, #main4 p {font-size: 1.2em; text-align: justify;}
+#event {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+.faq {
+        width: 60%;
+        border: 1px solid green;
+        border-radius: 2px;
+}
+aside {
+        border: 4px inset #adff2f;
+        border-radius: 14px;
+        margin: 1em;
+        font-size: 1em;
+        padding: 1em;
+        width: 25%;
+        background: url("images/fade.jpg") repeat-x top left;
+        float: right;
+        box-shadow: 10px 10px 5px #aaaaaa;
+}
+.abtven{text-align: center;}
+#abtcon {display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 10px 5px #aaaaaa;
+}
+/* For product.html */
+#ad {border: 4px inset #ff4500;
+    text-align: center;
+    font-size: 1em;
+}
+ .main5 h1 {color: rgb(0,128,128);
+            font: normal xx-large Verdana, sans-serif;
+            font-weight: bold;
+}
+ #main6 h2 {color: #bdb76b; font-weight: bold; font-size: 1.5em; }
+ #main7 h2 {color: #bdb76b; font-weight: bold; font-size: 1.5em; }
+ #main8 h2 {color: #bdb76b; font-weight: bold; font-size: 1.5em; }
+ #main9 h2 {color: #bdb76b; font-weight: bold; font-size: 1.5em; }
+ .main5, #main6, #main7, #main8, #main9 p {font-size: 1.2em; text-align: justify;}
+ .venues{float: right;
+         box-shadow: 10px 10px 5px #aaaaaa;
+         margin-top: 0px;
+}
+
+ .afthd {width:100%;
+ border: 1px solid green;
+ border-radius: 2px;}
+ #prod td {border: 1px solid #ff4500;
+           background-color: #ffebcd;
+ }
+ #prod th {
+     font-weight: bold;
+     color: White;
+     border: 1px solid #ff4500;
+ }
+ .thd {background-color: #e97451;}
+ #prod {
+             border: 1px solid black;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: auto;
+             margin-bottom: auto;
+             font-size: 20px;
+
+  }
+  #main6 h3 {color: #6495ed;}
+  #main7 h3 {color: #6495ed;}
+  #main8 h3 {color: #6495ed;}
+  #btab {color: #bdb76b;}
+/* For enquire.html*/
+#submit { width: 17em;
+          padding: 14px 16px;
+}
+.main10 h1 {color: rgb(0,128,128);
+           font: normal xx-large Verdana, sans-serif;
+           font-weight: bold;
+}
+.main10 p {font-size: 1.2em; text-align: justify;}
+
+
+ /* For about.html */
+ #myd {color: #bdb76b; font-weight: bold; font-size: 1.5em;}
+ #main11 h2 {color: rgb(0,128,128);
+            font: normal xx-large Verdana, sans-serif;
+            font-weight: bold;
+ }
+ #main11 p {font-size: 1.2em; text-align: justify;}
+ #main12 h4 {color: #6495ed;
+   font-weight: bold;
+ }
+ #main13 h4 {color: #6495ed;
+   font-weight: bold;
+ }
+ #main14 h4 {color: #6495ed;
+   font-weight: bold;
+ }
+ .tpskl ul{background-color: lightgray;
+        padding: 14px 16px;
+        font-size: 1.3em;
+ }
+ .tts ul{background-color: lightgray;
+        padding: 14px 16px;
+        font-size: 1.3em;
+ }
+ .ipskl ul{background-color: lightgray;
+        padding: 14px 16px;
+        font-size: 1.3em;
+ }
+ .tpskl, .ipskl, .tts {float: left;}
+
+
+   dt {
+        clear: both;
+ 	      float: left;
+        width: 40%;
+ 	      text-align: right;
+        font-weight: bold;
+        color: #FA2D09;
+        margin-left: auto;
+   }
+   dt::after {
+     content: " :";
+   }
+
+   dd {
+        text-align: justify;
+        width: 55%;
+ 	      margin-left: 42%;
+        color: #15A4DE;
+   }
+   #ema {  text-align: justify;
+          width: 55%;
+          margin-left: 41%;
+   }
+   #em {color: #15A4DE;}
+   #python{
+     width:85%;
+   }
+   #MySQL{
+     width: 90%;
+   }
+   #Cpp{
+     width: 90%;
+   }
+   #Js{
+     width: 80%;
+   }
+/*payment.html*/
+.payht h2 {color: rgb(0,128,128);
+           font: normal xx-large Verdana, sans-serif;
+           font-weight: bold;}
+/* My photo */
+#mypic {
+        background: url("images/fade.jpg") repeat-x top left;
+        margin-top: auto;
+        float: right;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        padding: 20px;
+        border: 4px double darkgray;
+}
+#timetable {
+            border: 1px solid black;
+            margin-left: auto;
+            margin-right: auto;
+
+ }
+table,th,td {border: 1px solid lightblue;}
+th {
+    font-weight: bold;
+    color: darkblue;
+}
+.tabhead {background-color: #e7feff;}
+#about {background-color: white;}
+.tne {background-color: #f8de7e;}
+.cwa {background-color: #ffcff1;}
+.itp {background-color: #ccccff;}
+.cle {background-color: #66cdaa;}
+/* For enhancements.html*/
+.main15 h1 {color: rgb(0,128,128); font-weight: bold; font-size: 1.5em; }
+.main15 p {font-size: 1.5em; text-align: justify;}
+
+/*For errors in fix_order.php */
+.errors div {color: rgb(0,128,128);}

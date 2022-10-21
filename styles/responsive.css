@@ -1,0 +1,43 @@
+/*
+filename: [Rohan Soni]
+author: [Rohan Soni]
+created: [24/03/2021]
+last modified: [28/03/2021]
+description: [index.html, product.html, enquire.html, about.html, enhancements.html]
+purpose: Assignment 1
+ */
+
+ /* Media query for display: under 500px Small display-Iphone 5*/
+ @media screen and (max-width :31.25em)
+ {
+   header h1{
+              font-size: 48px;
+              padding: 0;
+              text-align: center;
+   }
+   nav ul li {
+     width: 40%;
+   }
+   #main, #main2, #main3, #main4 {
+     margin: 0;
+     float: none;
+     width: 30%;
+   }
+   #main5, #main6, #main7, #main8, #main9 {
+     margin: 0;
+     float: none;
+     width: 43%;
+   }
+   #main10, #main11, #main12, #main13, #main14, #main15 {
+     margin: 0;
+     float: none;
+     width: 43%;
+   }
+   img{
+     display: block;
+     margin: 0 auto;
+   }
+   article {
+     min-width: 50%;
+   }
+ }
